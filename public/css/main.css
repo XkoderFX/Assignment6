@@ -1,0 +1,29 @@
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(46, 91, 175);
+}
+
+nav ul {
+    margin: 0;
+    padding-left: 0.4rem;
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    border: 1px solid white;
+    border-radius: 0.4rem;
+    padding: 0.5rem;
+    margin: 10px;
+}
+
+a {
+    font-family: Roboto, sans-serif;
+    text-decoration: none;
+    color: white;
+}

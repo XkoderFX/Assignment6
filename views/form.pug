@@ -1,0 +1,11 @@
+extends layouts/main-layout.pug
+
+
+block head
+    link(rel="stylesheet", href="/css/form.css")
+
+block content
+    main
+        form(action="/add-user" method="post")
+            input#name(type="text" name="name" placeholder="your name")
+            input(type="submit")
